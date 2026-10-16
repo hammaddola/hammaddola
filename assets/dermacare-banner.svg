@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" role="img" aria-labelledby="t">
+  <title id="t">DermaCare: AI skin screening and verified dermatologists</title>
+  <defs>
+    <linearGradient id="bbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#061629"/><stop offset="0.5" stop-color="#0B2A4A"/><stop offset="1" stop-color="#123E73"/>
+    </linearGradient>
+    <radialGradient id="a1" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#0B7F75" stop-opacity="0.55"/><stop offset="1" stop-color="#0B7F75" stop-opacity="0"/></radialGradient>
+    <radialGradient id="a2" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#5B47B0" stop-opacity="0.35"/><stop offset="1" stop-color="#5B47B0" stop-opacity="0"/></radialGradient>
+    <radialGradient id="a3" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#1D6FD8" stop-opacity="0.4"/><stop offset="1" stop-color="#1D6FD8" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#FFFFFF" stroke-opacity="0.035"/></pattern>
+  </defs>
+  <rect width="1280" height="640" fill="url(#bbg)"/>
+  <rect width="1280" height="640" fill="url(#grid)"/>
+  <circle cx="1020" cy="300" r="380" fill="url(#a1)"/>
+  <circle cx="1180" cy="80" r="300" fill="url(#a2)"/>
+  <circle cx="180" cy="620" r="360" fill="url(#a3)"/>
+  <!-- scan rings echoing the in-app orb -->
+  <g fill="none" stroke="#4FD1C1">
+    <circle cx="1030" cy="310" r="150" stroke-opacity="0.35" stroke-width="2"/>
+    <circle cx="1030" cy="310" r="210" stroke-opacity="0.22" stroke-width="2" stroke-dasharray="4 12"/>
+    <circle cx="1030" cy="310" r="270" stroke-opacity="0.12" stroke-width="2"/>
+  </g>
+  <svg x="905" y="185" width="250" height="250" viewBox="0 0 1024 1024">  <defs>
+    <linearGradient id="bbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071D36"/>
+      <stop offset="0.55" stop-color="#0B2A4A"/>
+      <stop offset="1" stop-color="#123E73"/>
+    </linearGradient>
+    <radialGradient id="bglow" cx="0.5" cy="0.56" r="0.5">
+      <stop offset="0" stop-color="#4FD1C1" stop-opacity="0.38"/>
+      <stop offset="1" stop-color="#4FD1C1" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="bdrop" x1="0.25" y1="0.1" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#8FEADF"/>
+      <stop offset="0.45" stop-color="#2FB5A6"/>
+      <stop offset="1" stop-color="#0A6E66"/>
+    </linearGradient>
+    <linearGradient id="bbeam" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4FD1C1" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#C9F5EE" stop-opacity="1"/>
+      <stop offset="1" stop-color="#4FD1C1" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="bblur" x="-50%" y="-200%" width="200%" height="500%">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+  </defs>
+  <rect width="1024" height="1024" rx="232" fill="url(#bbg)"/>
+  <circle cx="512" cy="560" r="400" fill="url(#bglow)"/>
+
+  <!-- scanner viewfinder -->
+  <g fill="none" stroke="#FFFFFF" stroke-width="40" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.92">
+    <path d="M232 352 V292 a60 60 0 0 1 60 -60 H352"/>
+    <path d="M672 232 H732 a60 60 0 0 1 60 60 V352"/>
+    <path d="M792 672 V732 a60 60 0 0 1 -60 60 H672"/>
+    <path d="M352 792 H292 a60 60 0 0 1 -60 -60 V672"/>
+  </g>
+
+  <!-- skin drop with care cross -->
+  <path d="M512 300 C590 400 660 470 660 576 A148 148 0 0 1 364 576 C364 470 434 400 512 300 Z" fill="url(#bdrop)"/>
+  <path d="M512 300 C590 400 660 470 660 576 A148 148 0 0 1 364 576 C364 470 434 400 512 300 Z" fill="none" stroke="#FFFFFF" stroke-opacity="0.25" stroke-width="6"/>
+  <ellipse cx="458" cy="470" rx="34" ry="62" transform="rotate(28 458 470)" fill="#FFFFFF" fill-opacity="0.35"/>
+  <path d="M512 532 V652 M452 592 H572" stroke="#FFFFFF" stroke-width="40" stroke-linecap="round"/>
+
+  <!-- scan beam -->
+  <rect x="262" y="640" width="500" height="26" rx="13" fill="url(#bbeam)" filter="url(#bblur)" opacity="0.9"/>
+  <rect x="282" y="649" width="460" height="8" rx="4" fill="url(#bbeam)"/>
+</svg>
+  <text x="96" y="150" font-family="'Poppins','Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="22" font-weight="600" fill="#4FD1C1" letter-spacing="4">DERMATOLOGY · TELEMEDICINE · AI</text>
+  <text x="92" y="262" font-family="'Poppins','Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="104" font-weight="700" letter-spacing="-3"><tspan fill="#FFFFFF">Derma</tspan><tspan fill="#4FD1C1">Care</tspan></text>
+  <text x="96" y="330" font-family="'Poppins','Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="34" font-weight="500" fill="#DCE7F3">Know your skin in a minute.</text>
+  <text x="96" y="378" font-family="'Poppins','Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="34" font-weight="500" fill="#DCE7F3">Get a licence-verified dermatologist on it.</text>
+  <g transform="translate(96 470)"><rect width="246" height="52" rx="26" fill="#FFFFFF" fill-opacity="0.08" stroke="#FFFFFF" stroke-opacity="0.18"/><circle cx="24" cy="26" r="5" fill="#4FD1C1"/><text x="40" y="34" font-family="'Poppins','Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="22" font-weight="500" fill="#DCE7F3">AI skin screening</text></g><g transform="translate(356 470)"><rect width="326" height="52" rx="26" fill="#FFFFFF" fill-opacity="0.08" stroke="#FFFFFF" stroke-opacity="0.18"/><circle cx="24" cy="26" r="5" fill="#4FD1C1"/><text x="40" y="34" font-family="'Poppins','Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="22" font-weight="500" fill="#DCE7F3">Licence-verified doctors</text></g><g transform="translate(695 470)"><rect width="326" height="52" rx="26" fill="#FFFFFF" fill-opacity="0.08" stroke="#FFFFFF" stroke-opacity="0.18"/><circle cx="24" cy="26" r="5" fill="#4FD1C1"/><text x="40" y="34" font-family="'Poppins','Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="22" font-weight="500" fill="#DCE7F3">Video &amp; in-person visits</text></g>
+  <text x="96" y="590" font-family="'Poppins','Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="18" fill="#7F93AB">Flutter · Supabase · Gemini · TensorFlow — screening support, not a medical diagnosis</text>
+</svg>
